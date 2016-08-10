@@ -6,15 +6,14 @@ and test machine to run e2e conformance tests.
 ## Prerequisites
 
 - Vagrant 1.8.1+
-- Ansible 1.9+
 
 ## Configuration
 
-All global variables are stored in `group_vars/all.yaml` file.
+All global variables are stored in `enviroment.sh` file.
 You can setup:
- - master_ip - master IP address used in all VMs. This value depends on Vagrant network configuration in Vagrantfile.
- - use_cni - boolean flag indicates if CNI plugin must be used for cluster network.
- - k8s_version - sets released version of kubernetes which must be used in cluster.
+ - MASTER_IP - master IP address used in all VMs. This value depends on Vagrant network configuration in Vagrantfile.
+ - USE_CNI - boolean flag indicates if CNI plugin must be used for cluster network.
+ - K8S_VERSION - sets released version of kubernetes which must be used in cluster.
 
 ## Start VMs
 
