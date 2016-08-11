@@ -15,5 +15,5 @@
 # limitations under the License.
 
 export MASTER_IP=10.9.8.7
-export K8S_VERSION=
-export USE_CNI=false
+export K8S_VERSION=v1.4.0-alpha.2
+export USE_CNI=true

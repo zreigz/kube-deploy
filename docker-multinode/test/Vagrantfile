@@ -14,7 +14,7 @@
 
 def configure_vm(vm, **opts)
 
-    vm.box = opts.fetch(:box, "bento/ubuntu-16.04")
+    vm.box = opts.fetch(:box, "bento/ubuntu-15.10")
     vm.network :private_network, ip: opts[:private_ip]
 
     vm.provider "virtualbox" do |vb|
